@@ -1,4 +1,4 @@
-import keras.caffe.convert as convert
+import ..caffe.convert as convert
 import pprint
 import argparse
 

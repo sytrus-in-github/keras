@@ -1,6 +1,6 @@
 import itertools
-from keras.layers.containers import Graph, Sequential
-from keras.layers.core import Merge
+from ..layers.containers import Graph, Sequential
+from ..layers.core import Merge
 
 try:
     # pydot-ng is a fork of pydot that is better maintained

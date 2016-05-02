@@ -8,7 +8,7 @@ import warnings
 
 from collections import deque
 from .utils.generic_utils import Progbar
-from keras import backend as K
+from . import backend as K
 
 
 class CallbackList(object):

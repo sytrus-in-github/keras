@@ -1,5 +1,5 @@
-from keras.models import Sequential, Graph, model_from_json
-from keras.optimizers import SGD
+from ..models import Sequential, Graph, model_from_json
+from ..optimizers import SGD
 
 from scipy import misc
 import numpy as np
